@@ -1,0 +1,6 @@
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_1_2\PW_1_2\bin\Debug\PW_1_2.exe.config
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_1_2\PW_1_2\bin\Debug\PW_1_2.exe
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_1_2\PW_1_2\bin\Debug\PW_1_2.pdb
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_1_2\PW_1_2\obj\Debug\PW_1_2.csprojResolveAssemblyReference.cache
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_1_2\PW_1_2\obj\Debug\PW_1_2.exe
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_1_2\PW_1_2\obj\Debug\PW_1_2.pdb
