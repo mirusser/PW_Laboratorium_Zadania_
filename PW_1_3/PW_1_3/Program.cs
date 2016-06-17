@@ -96,14 +96,12 @@ namespace PW_1_3
                 tablicaWatkow[i].Name = i.ToString();
             }
 
-
+            stoper_wspolbieznie.Start();
             for (int i = 0; i < bok_grafu; i++)
             {
 
                 tablicaWatkow[i].Start();
             }
-
-            stoper_wspolbieznie.Start();
 
             for (int i = 0; i < bok_grafu; i++)
             {
