@@ -4,3 +4,6 @@ c:\users\jan kowalski\documents\visual studio 2015\Projects\PW_1_1\PW_1_1\bin\De
 c:\users\jan kowalski\documents\visual studio 2015\Projects\PW_1_1\PW_1_1\obj\Debug\PW_1_1.csprojResolveAssemblyReference.cache
 c:\users\jan kowalski\documents\visual studio 2015\Projects\PW_1_1\PW_1_1\obj\Debug\PW_1_1.exe
 c:\users\jan kowalski\documents\visual studio 2015\Projects\PW_1_1\PW_1_1\obj\Debug\PW_1_1.pdb
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_1_1\PW_1_1\bin\Debug\PW_1_1.exe.config
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_1_1\PW_1_1\obj\Debug\PW_1_1.exe
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_1_1\PW_1_1\obj\Debug\PW_1_1.pdb

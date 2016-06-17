@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace PW_1_1
 {
@@ -20,7 +17,7 @@ namespace PW_1_1
             List<Thread> Lista_watkow = new List<Thread>();
             List<TimeSpan> Lista_czasow = new List<TimeSpan>();
 
-            //tworzenie tysiąca wątków
+            //Tworzenie tysiąca wątków, tak duża liczba by pomiar był wiarygodny
             for (int i = 0; i < 1000; i++)
             {
                 DateTime początek = DateTime.Now;
@@ -28,7 +25,7 @@ namespace PW_1_1
                 Thread thread = new Thread(new ThreadStart(Metoda));
                 thread.Start();
                 DateTime koniec = DateTime.Now;
-                Lista_czasow.Add(koniec - początek);
+                Lista_czasow.Add(koniec - początek); //Dodanie wyliczonego czasu tworzenia jednego wątku na listę
 
                 Lista_watkow.Add(thread);
                 Console.WriteLine("Wątek " + i + " utworzył się w czasie " + Lista_czasow[i]);
@@ -43,8 +40,7 @@ namespace PW_1_1
             double srednia = (double)suma / 1000.0;
 
             Console.WriteLine("Średnio jeden wątek tworzył się więc " + srednia + " ms.");
-            Console.ReadLine();
-
+            Console.ReadLine(); //ReadLine by można było zobaczyć w konsoli wynik działania programu
         }
     }
 }
