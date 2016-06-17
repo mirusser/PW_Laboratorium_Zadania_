@@ -9,7 +9,7 @@ namespace PW_1_2
         {
             Thread.Sleep(2147483647);
             //watek musi być uśpiony, robić cokolwiek, ponieważ inaczej, 
-            //zaraz po zakończeniu tej metody jest usuwany
+            //zaraz po zakończeniu tej metody jest usuwany/zatrzymywany
         }
 
 
