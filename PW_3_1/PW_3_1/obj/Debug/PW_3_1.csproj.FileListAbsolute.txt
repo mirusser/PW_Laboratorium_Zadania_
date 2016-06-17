@@ -1,0 +1,6 @@
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_3_1\PW_3_1\bin\Debug\PW_3_1.exe.config
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_3_1\PW_3_1\bin\Debug\PW_3_1.exe
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_3_1\PW_3_1\bin\Debug\PW_3_1.pdb
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_3_1\PW_3_1\obj\Debug\PW_3_1.csprojResolveAssemblyReference.cache
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_3_1\PW_3_1\obj\Debug\PW_3_1.exe
+C:\Users\Jan Kowalski\Documents\GitHub\PW_Laboratorium_Zadania_\PW_3_1\PW_3_1\obj\Debug\PW_3_1.pdb
