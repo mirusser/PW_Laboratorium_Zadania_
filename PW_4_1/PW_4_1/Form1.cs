@@ -205,23 +205,26 @@ namespace PW_4_1
                 if (PermutationThread.ThreadState == System.Threading.ThreadState.Suspended)
                 {
                     PermutationThread.Resume();
+                    stoper.Start();
                 }
                 else
                 {
                     PermutationThread.Suspend();
+                    stoper.Stop();
                 }
             }
         }
 
         private void buttonStop_Click(object sender, EventArgs e)
         {
-            if(PermutationThread!=null && TimeThread!=null)
+            if(PermutationThread!=null && TimeThread!=null) 
             {
                 TimeThread.Abort();
                 PermutationThread.Abort();
                 textBox.Clear();
                 progressBar1.Value = 0;
                 progressBar1.Update();
+                stoper.Reset();
                 labelPassedTime.Text = "Passed:";
             }
         }
