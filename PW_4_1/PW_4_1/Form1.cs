@@ -69,7 +69,7 @@ namespace PW_4_1
                     zmienna = tabofnumberstopermutate[i];
 
                     MethodInvoker action = delegate { textBox.AppendText(zmienna + " "); };
-                    progressBar1.Invoke(action);
+                    textBox.Invoke(action);
                 }
             }
             if (progressBar1.Value < numberOfSwaps)
