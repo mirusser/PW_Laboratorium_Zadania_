@@ -117,7 +117,6 @@ namespace PW_4_1
                 tabofnumberstopermutate[i] = i+1;
             }
             DisplayArrayAndUpdateProgrssBar();
-            Thread.Sleep(10);
             PermutationAlgorithm(n);
         }
 
