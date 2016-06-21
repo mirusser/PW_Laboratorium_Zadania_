@@ -13,7 +13,7 @@ namespace PW_1_3
         #region Pola klasy
         static int[,] graf;
         static int bok_grafu;
-        static int liczba_krawedzi = 0;
+        static volatile int liczba_krawedzi;
         #endregion
 
         #region Metody liczące krawędzie
@@ -34,8 +34,12 @@ namespace PW_1_3
         public static void współbieżne_liczenie()
         {
             int x = int.Parse(Thread.CurrentThread.Name);
-            for (int i = 0; i < bok_grafu; i++)
-                liczba_krawedzi += graf[i, x];
+
+                for (int j = x + 1; j < bok_grafu; j++)
+                {
+                    if (graf[x, j] == 1)
+                        liczba_krawedzi++;
+                }
         }
         #endregion
 
@@ -111,7 +115,7 @@ namespace PW_1_3
 
             stoper_wspolbieznie.Stop();
 
-            Console.WriteLine("Ilosc krawedzi liczona współbieżnie: " + liczba_krawedzi / 2);
+            Console.WriteLine("Ilosc krawedzi liczona współbieżnie: " + liczba_krawedzi);
             Console.WriteLine("Czas liczenia krawędzi współbieżnie: " + stoper_wspolbieznie.ElapsedMilliseconds + " ms");
 
             Console.ReadLine();
