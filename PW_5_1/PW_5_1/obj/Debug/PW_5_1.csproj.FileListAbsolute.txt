@@ -1,0 +1,6 @@
+c:\users\jan kowalski\documents\visual studio 2015\Projects\PW_5_1\PW_5_1\bin\Debug\PW_5_1.exe.config
+c:\users\jan kowalski\documents\visual studio 2015\Projects\PW_5_1\PW_5_1\bin\Debug\PW_5_1.exe
+c:\users\jan kowalski\documents\visual studio 2015\Projects\PW_5_1\PW_5_1\bin\Debug\PW_5_1.pdb
+c:\users\jan kowalski\documents\visual studio 2015\Projects\PW_5_1\PW_5_1\obj\Debug\PW_5_1.csprojResolveAssemblyReference.cache
+c:\users\jan kowalski\documents\visual studio 2015\Projects\PW_5_1\PW_5_1\obj\Debug\PW_5_1.exe
+c:\users\jan kowalski\documents\visual studio 2015\Projects\PW_5_1\PW_5_1\obj\Debug\PW_5_1.pdb
