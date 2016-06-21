@@ -52,7 +52,8 @@ namespace PW_5_1
             for (int i = 0; i < bok_grafu - 1; i++)
                 for (int j = i + 1; j < bok_grafu; j++) if (graf[i,j] == 1)
                     {
-                        odleglosc = Math.Abs(tablicaPermutacji[int.Parse(Thread.CurrentThread.Name),i] - tablicaPermutacji[int.Parse(Thread.CurrentThread.Name), j]);
+                        odleglosc = 
+                        Math.Abs(tablicaPermutacji[int.Parse(Thread.CurrentThread.Name),i] - tablicaPermutacji[int.Parse(Thread.CurrentThread.Name), j]);
 
                         if (odleglosc > najlepszaOdleglosc)
                         {
