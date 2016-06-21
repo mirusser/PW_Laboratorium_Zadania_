@@ -7,8 +7,9 @@ namespace PW_1_2
     {
         static void Metoda()
         {
-            Thread.Sleep(2147483647);
-            //watek musi być uśpiony, robić cokolwiek, ponieważ inaczej, 
+            Thread.CurrentThread.Suspend();
+
+            //watek musi być uśpiony/zawieszony bądź robić cokolwiek, ponieważ inaczej, 
             //zaraz po zakończeniu tej metody jest usuwany/zatrzymywany
         }
 
