@@ -26,7 +26,7 @@ namespace PW_3_1
     class Consumer_Producer : PasswordGenerator
     {
         #region Variables
-        public static string ConsumerPassword;
+        public static volatile string ConsumerPassword;
         public static Thread consumerThread;
         public static Thread producerThread;
         volatile static object buffer;
@@ -70,7 +70,7 @@ namespace PW_3_1
                         consumerThread.Abort();
                     }
                     Monitor.Exit(buffer);
-                    buffer = null;
+                    buffer = null; // take of from buffer
 
                     Thread.Sleep(1000);
                 }
@@ -79,7 +79,6 @@ namespace PW_3_1
                     Console.WriteLine("Consumer: Empty Buffor");
                     Thread.Sleep(1000);
                 }
-
             }
         }
         #endregion
