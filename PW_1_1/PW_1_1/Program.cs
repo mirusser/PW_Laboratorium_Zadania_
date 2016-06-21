@@ -14,7 +14,6 @@ namespace PW_1_1
 
         static void Main(string[] args)
         {
-            List<Thread> Lista_watkow = new List<Thread>();
             List<TimeSpan> Lista_czasow = new List<TimeSpan>();
 
             //Tworzenie tysiąca wątków, tak duża liczba by pomiar był wiarygodny
@@ -27,7 +26,6 @@ namespace PW_1_1
                 DateTime koniec = DateTime.Now;
                 Lista_czasow.Add(koniec - początek); //Dodanie wyliczonego czasu tworzenia jednego wątku na listę
 
-                Lista_watkow.Add(thread);
                 Console.WriteLine("Wątek " + i + " utworzył się w czasie " + Lista_czasow[i]);
             }
 
